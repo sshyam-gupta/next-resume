@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Styles from './styles';
-import Fonts from './Fonts'
 import Head from './Head'
 import Left from '../components/Left';
 import Right from '../components/Right';
@@ -16,12 +15,7 @@ var DATA = {
   resumeURL: 'https://sshyam-gupta.github.io/resume.pdf'
 }
 
-class Home extends React.Component {
-  componentDidMount() {
-    Fonts()
-  }
-
-  render() {
+function Home (){
     return (
       <>
         <Styles />
@@ -42,7 +36,6 @@ class Home extends React.Component {
             </div>
       </>
     )
-  }
 }
 
 export default Home

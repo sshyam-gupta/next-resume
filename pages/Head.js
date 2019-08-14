@@ -25,5 +25,9 @@ export default () => (
 
     <meta itemProp="name" content="Resume | Shyam Gupta" />
     <meta itemProp="description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design." />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700" rel="stylesheet" />
+
   </Head>
 )
