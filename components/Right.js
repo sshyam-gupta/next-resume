@@ -16,15 +16,15 @@ export default (props) => {
           <div className="content">
             <div className="skill-category">
               <strong>Languages: &nbsp;</strong>
-              <span>JavaScript (ES6), Typescript, HTML5, CSS3, Dart</span>
+              <span>JavaScript (ES6), Typescript, HTML5, (S)CSS, Dart</span>
             </div>
             <div className="skill-category">
               <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-              <span>React, React Native, Angular, AngularJS, Flutter, jQuery, Bootstrap, Node, Backbone, Cordova, MongoDB, Express</span>
+              <span>React, React Native, NextJS, GraphQL, Angular, AngularJS, Flutter, jQuery, Bootstrap, Node, Backbone, Cordova, MongoDB, Express</span>
             </div>
             <div className="skill-category">
               <strong>Tools: &nbsp;</strong>
-              <span>Git, Postman, inVision, Abstract</span>
+              <span>Git, Postman, inVision, Abstract, Netlify, Webpack, Firebase</span>
             </div>
           </div>
         </div>
