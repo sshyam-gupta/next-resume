@@ -30,6 +30,7 @@ export default () => (
         text-align: center;
         overflow: hidden;
         position: fixed;
+        height: 100vh;
       }
       
       .left .bg-img {
@@ -58,13 +59,13 @@ export default () => (
       
       .left-inner,
       .right-inner {
-        padding: 50px;
+        padding: 3em;
       }
       
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 600px) {
         .left-inner,
         .right-inner {
-          padding: 40px;
+          padding: 1.5em;
         }
       }
       
@@ -80,24 +81,19 @@ export default () => (
       }
       
       .left .info {
-        -webkit-box-flex: 0;
-        -webkit-flex: none;
-        flex: none;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         color: #fff;
-        width: 90%;
         margin: 0 auto;
-        margin-top: 40%;
-      }
-      
-      @media screen and (max-width: 1000px) {
-        .left .info {
-          margin-top: 300px;
-        }
+        margin: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
       }
       
       .left .info .name {
@@ -105,12 +101,11 @@ export default () => (
       }
       
       .left .info .social-links {
-        margin-top: 30px;
+        margin-top: 2em;
       }
       
       .left .info .fa {
-        margin: 10px;
-        font-size: 24px;
+        margin: 0.5em;
         color: #fff;
       }
       
@@ -140,9 +135,9 @@ export default () => (
       
       .right h4 {
         width: 20%;
-        margin: 0 0 20px;
+        margin: 0 0 1.2em;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 0.8em;
         background-color: #2A54F5;
         background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
         background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
@@ -158,25 +153,15 @@ export default () => (
       .right .content {
         width: 80%;
         padding: 0;
-        margin: 0 0 50px;
+        margin: 0 0 3em;
         font-weight: 300;
-        line-height: 1.5;
-      }
-      
-      
-      @media screen and (max-width: 600px) {
-        .right h4,
-        .right .content {
-          display: block;
-          vertical-align: top;
-          width: 100%;
-        }
+        line-height: 1.3;
       }
       
       .right .content ul.description {
-        padding-left: 20px;
+        padding-left: 1.2em;
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 0.9em;
       }
       
       .right .introduction .intro-p:first-of-type {
@@ -204,16 +189,16 @@ export default () => (
       
       .right .skills .skill-category > strong {
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 0.8em;
       }
       
       .right .education {
-        font-size: 16px;
+        font-size: 1em;
       }
       
       .right .education .university {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1em;
       }
       
       .right .education .college {
@@ -226,7 +211,7 @@ export default () => (
       .right .education .minor,
       .right .education .conc,
       .right .education .study-abroad {
-        font-size: 15px;
+        font-size: 0.9em;
       }
       
       .right .education .major > strong,
@@ -243,13 +228,13 @@ export default () => (
       .right .education .grad-date {
         text-transform: uppercase;
         color: #aaa;
-        font-size: 13px;
+        font-size: 0.7em;
         font-weight: 500;
-        margin-top: 20px;
+        margin-top: 1.2em;
       }
       
       .right .experience .exp-item {
-        margin-bottom: 30px;
+        margin-bottom: 2em;
       }
       
       .right .experience .exp-item:last-of-type {
@@ -262,7 +247,7 @@ export default () => (
       }
       
       .right .experience .exp-item .duration {
-        font-size: 13px;
+        font-size: 0.7em;
         font-weight: 500;
         float: right;
         color: #aaa;
@@ -284,7 +269,7 @@ export default () => (
       }
       
       .right .projects .project-item {
-        margin-bottom: 20px;
+        margin-bottom: 1.2em;
       }
       
       .right .projects .project-title {
@@ -292,14 +277,14 @@ export default () => (
       }
       
       .right .projects .project-desc {
-        font-size: 15px;
+        font-size: 0.8em;
         margin: 0 0 10px;
       }
       
       .right a.resume {
         display: block;
         width: 100%;
-        max-width: 500px;
+        max-width: 600px;
         margin: 0 auto;
         text-align: center;
         padding: 15px 0px;
@@ -314,13 +299,22 @@ export default () => (
       
       .right a.resume .resume-link {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1em;
         text-transform: uppercase;
         background-color: #2A54F5;
         background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
         background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+      }
+
+      @media screen and (max-width: 600px) {
+        .right h4,
+        .right .content {
+          display: block;
+          vertical-align: top;
+          width: 100%;
+        }
       }
     `}</style>
   </div>
