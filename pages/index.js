@@ -13,7 +13,7 @@ var DATA = {
   instaURL: 'https://www.instagram.com/shyamm06/',
   githubURL: 'https://github.com/sshyam-gupta',
   linkedinURL: 'https://www.linkedin.com/in/shyam-gupta-66463a62',
-  resumeURL: 'https://sshyam-gupta.github.io/resume.pdf'
+  resumeURL: 'https://sshyam-gupta.netlify.com/static/resume.pdf'
 }
 
 class Home extends React.Component{

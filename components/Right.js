@@ -49,7 +49,7 @@ export default (props) => {
               <ul className="description">
                 <li>Developed and maintained code for in-house and client websites primarily using React &amp; React Native.</li>
                 <li>Propose and implement design and engineering solutions to ensure optimal and coherent user experiences for kiprosh website & inhouse project</li>
-                <li>Engineered and responsible for developing mobile and web apps for curefit &amp; cultgear</li>
+                <li>Engineered and responsible for developing mobile and web apps for <strong>cure.fit</strong> &amp; <strong>cultgear</strong></li>
               </ul>
             </div>
             <div className="exp-item">
@@ -61,7 +61,7 @@ export default (props) => {
               <ul className="description">
                 <li>Developed and maintained code client websites & mobile apps primarily using BackboneJS, Angular &amp; AngularJS </li>
                 <li>Tested code in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>
-                <li>Clients included Loylty Rewardz, V.A.N.S.O (Interswitch), Dayspring Media and more</li>
+                <li>Clients included <strong>Loylty Rewardz</strong>, <strong>V.A.N.S.O (Interswitch)</strong>, <strong>Dayspring Media</strong> and more</li>
               </ul>
             </div>
           </div>
