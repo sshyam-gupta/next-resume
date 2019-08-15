@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from 'react-ga'
 
 import Styles from './styles';
 import Head from './Head'
@@ -15,7 +16,13 @@ var DATA = {
   resumeURL: 'https://sshyam-gupta.github.io/resume.pdf'
 }
 
-function Home (){
+class Home extends React.Component{
+  componentDidMount() {
+    ReactGA.initialize('UA-139689679-2')
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
+  render() {
     return (
       <>
         <Styles />
@@ -36,6 +43,7 @@ function Home (){
             </div>
       </>
     )
+  }
 }
 
 export default Home
