@@ -5,6 +5,7 @@ export default () => (
     <title>Resume | Shyam Gupta</title>
     <meta charSet="UTF-8" />
     <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
+    
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
