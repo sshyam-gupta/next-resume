@@ -1,2 +1,2 @@
-  name: Label approved pull requests
-  uses: pullreminders/label-when-approved-action@v1.0.3
+- name: Assignee to reviewer
+  uses: pullreminders/assignee-to-reviewer-action@v1.0.4
