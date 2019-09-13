@@ -1,0 +1,3 @@
+- [ ] PR description added with checklist of tasks
+- [ ] Screenshot attached (if applicable)
+- [ ] Performance Benchmark attached (if applicable)
