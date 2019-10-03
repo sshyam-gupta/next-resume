@@ -1,15 +1,10 @@
-## Problem
-_What problem are you trying to solve?_
+## Whats new here
+_What are you trying to achieve?_
 
 ## Solution
-_How did you solve the problem?_
+_How did you achieveit?_
 
 #### Open question(s) or challenge(s):
-
-#### Tested on:
-- [ ] mWeb
-- [ ] Android
-- [ ] iOS
 
 #### Before & After Screenshots (if applicable):
   **BEFORE**:
