@@ -1,6 +1,6 @@
 export default {
   name: "Hey, I'm Shyam",
-  subtext: "JS Developer based in Mumbai, India",
+  subtext: "Frontend Developer based in Mumbai, India",
   jobStatus: "Senior Software Engineer @ Kiprosh",
   instaURL: "https://www.instagram.com/shyamm06/",
   githubURL: "https://github.com/sshyam-gupta",
@@ -9,7 +9,7 @@ export default {
   skills: [
     {
       title: "Languages: ",
-      info: "JavaScript (ES6), Typescript, HTML5, (S)CSS, Dart"
+      info: "JavaScript (ES6+), Typescript, HTML5, (S)CSS, Dart"
     },
     {
       title: "Libraries &amp; Frameworks: ",
