@@ -9,7 +9,7 @@ export default {
   skills: [
     {
       title: "Languages: ",
-      info: "JavaScript (ES6), Typescript, HTML5, (S)CSS, Dart"
+      info: "JavaScript (ES6+), Typescript, HTML5, (S)CSS, Dart"
     },
     {
       title: "Libraries &amp; Frameworks: ",
