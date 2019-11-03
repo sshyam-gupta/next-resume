@@ -30,17 +30,19 @@ export default {
       description: (
         <ul className="description">
           <li>
-            Developed and maintained code for in-house and client websites
-            primarily using React &amp; React Native.
+            Write modern, performant, maintainable code for a diverse array of client and internal projects.
           </li>
           <li>
-            Propose and implement design and engineering solutions to ensure
-            optimal and coherent user experiences for kiprosh website & inhouse
-            project
+            Helped <strong>cure.fit</strong> in building gear vertical on both web and mobile apps.
           </li>
           <li>
-            Engineered and responsible for developing mobile and web apps for{" "}
-            <strong>cure.fit</strong> &amp; <strong>cultgear</strong>
+            Worked closely with the team to build an e-commerce platform for <strong>cultgear</strong>, one-stop-shop for all your sportswear needs.
+          </li>
+          <li>
+            Helped solidify a direction for cultgear that spans packaging both web and mobile apps in a single codebase.
+          </li>
+          <li>
+            Interfaced with clients on a daily basis, providing technological expertise.
           </li>
         </ul>
       )
@@ -53,21 +55,28 @@ export default {
       description: (
         <ul className="description">
           <li>
-            Developed and maintained code client websites & mobile apps
-            primarily using BackboneJS, Angular &amp; AngularJS{" "}
+            Work with a variety of different languages, platforms, frameworks such as JavaScript, TypeScript, React, Angular.js, Angular, Ionic, Phonegap, Appcelerator Titanium, Netlify.
           </li>
           <li>
-            Tested code in various browsers and mobile devices to ensure
-            cross-browser compatibility and responsiveness
+            Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
           </li>
           <li>
-            Clients included <strong>Loylty Rewardz</strong>,{" "}
-            <strong>V.A.N.S.O (Interswitch)</strong>,{" "}
-            <strong>Dayspring Media</strong> and more
+            Engineered and maintained major features of VANSO's customer-facing mobile apps using Backbone, HTML, CSS, Cordova, React Native.
+          </li>
+          <li>
+          Manually tested apps in various mobile devices to ensure cross-platform compatibility and responsiveness.
           </li>
         </ul>
       )
     }
   ],
-  projects: []
+  projects: [{
+    title: "cure.fit",
+    url: "cure.fit",
+    desc: "cure.fit is a health and fitness powerhouse that takes a holistic approach to physical and mental well being. At cure.fit, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, and medical & lifestyle care hassle-free."
+  }, {
+    title: "cultgear",
+    url: "cultgear.com",
+    desc: "cultgear is your one-stop shop for all your sportswear needs. Shop for apparel for running, training and everything that enables your active lifestyle."
+  }]
 }
