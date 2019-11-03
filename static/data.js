@@ -70,13 +70,14 @@ export default {
       )
     }
   ],
-  projects: [{
-    title: "cure.fit",
-    url: "cure.fit",
-    desc: "cure.fit is a health and fitness powerhouse that takes a holistic approach to physical and mental well being. At cure.fit, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, and medical & lifestyle care hassle-free."
-  }, {
-    title: "cultgear",
-    url: "cultgear.com",
-    desc: "cultgear is your one-stop shop for all your sportswear needs. Shop for apparel for running, training and everything that enables your active lifestyle."
-  }]
+  projects: []
 }
+    // projects: [{
+    //   title: "cure.fit",
+    //   url: "cure.fit",
+    //   desc: "cure.fit is a health and fitness powerhouse that takes a holistic approach to physical and mental well being. At cure.fit, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, and medical & lifestyle care hassle-free."
+    // }, {
+    //   title: "cultgear",
+    //   url: "cultgear.com",
+    //   desc: "cultgear is your one-stop shop for all your sportswear needs. Shop for apparel for running, training and everything that enables your active lifestyle."
+    // }]
